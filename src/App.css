@@ -2,6 +2,11 @@
   box-sizing: border-box
 }
 
+body {
+  /* background-color: lightgray; */
+  /* text-decoration-color: lightcoral; */
+}
+
 /* use this if you want button outside if pictures */
 .inner {
   max-width: 696px;
