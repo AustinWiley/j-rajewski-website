@@ -9,6 +9,17 @@ body {
 
 /* use this if you want button outside if pictures */
 .inner {
+  /* max-width: 696px; changed to make smaller see next line*/
+  max-width: 396px;
+  margin: auto;
+  /*margin-top: 80px;*/
+  /*margin-bottom: 80px;*/
+  /* background: green; */
+  /*padding-top: 25px;*/
+}
+
+.innersculpture {
+  /* max-width: 696px; changed to make smaller see next line*/
   max-width: 696px;
   margin: auto;
   /*margin-top: 80px;*/
@@ -18,16 +29,20 @@ body {
 }
 
 .paintings {
-  /* height: 740px; */
-  height: 989px;
+  /* height: 740px; dont use*/
+  /* height: 989px; changed to make smaller see next line */
+  height: 550px;
 }
 
 .drawings {
-  /* height: 740px; */
-  height: 989px;
+  /* height: 740px; dont use*/
+  /* height: 989px; changed to make smaller see next line */
+  height: 550px;
 }
 
 .sculptures {
+  /* height: 445px; changed to make smaller see next line */
+  /* height: 300px; */
   height: 445px;
 }
 
@@ -75,8 +90,20 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  /*max-width: 1000px;*/
-  /* max-width: 700px; */
+  /*max-width: 1000px; dont use*/
+  /* max-width: 700px; dont use*/
+  /* max-width: 896px; changed to make smaller see below*/
+  max-width: 596px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 0px;
+  /* background-color: green; */
+}
+
+.sculpture-container {
+  /*max-width: 1000px; dont use*/
+  /* max-width: 700px; dont use*/
+  /* max-width: 896px; changed to make smaller see below*/
   max-width: 896px;
   position: relative;
   margin: auto;

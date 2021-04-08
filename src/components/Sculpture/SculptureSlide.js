@@ -55,8 +55,8 @@ nextSlide = event => {
   render() {
     return (
       <>
-        <div className="slideshow-container">
-          <div className="inner sculptures">
+        <div className="sculpture-container">
+          <div className="innersculpture sculptures">
             {this.state.images.map(image => {
                 return <Slide image={image.image} key={image.id} caption={""} slideNumber={(parseInt(image.id) + 1)  + " / " + this.state.images.length } style={(this.state.slideIndex == image.id) ? this.state.show: this.state.hide } />
             })}
