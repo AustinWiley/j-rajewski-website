@@ -38,20 +38,6 @@ nextSlide = event => {
     };
   };
 
-  // When the component mounts, You can do what you want here
-  // componentDidMount() {
-  //   console.log("component did mounat")
-  //   this.setState({ slideIndeximages: images})
-  // }
-
-  // Handles updating component state when the user types into an input field
-  // handleInputChange = event => {
-  //   const { name, value } = event.target;
-  //   this.setState({
-  //     [name]: value
-  //   });
-  // };
-
   render() {
     return (
       <>
@@ -66,11 +52,6 @@ nextSlide = event => {
           <a className="next" onClick={this.nextSlide}>&#10095;</a>
         </div>
         <br />
-            {/* <div style="text-align:center">
-                <span className="dot" onclick="currentSlide(1)"></span>
-                <span classNamer="dot" onclick="currentSlide(2)"></span>
-                <span className="dot" onclick="currentSlide(3)"></span>
-            </div> */}
         </>
       );
     }

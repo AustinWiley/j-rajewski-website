@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy-production": "REACT_APP_DEPLOY_PRODUCTION"
+    "deploy-production": "react-scripts build && scp -r ./build/* $REACT_APP_DEPLOY_SERVER"
   },
   "eslintConfig": {
     "extends": [

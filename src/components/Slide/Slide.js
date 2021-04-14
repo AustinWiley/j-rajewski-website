@@ -1,6 +1,6 @@
 import React from "react";
 
-//this cpmponent created a slide for each image
+//this component creates a slide for each image
 function Slide(props) {
   return (
     <>

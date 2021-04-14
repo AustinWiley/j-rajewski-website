@@ -11,7 +11,7 @@ import {
   Switch,
   Route,
   Link
-} from "react-router-dom";  // something here needed for production?
+} from "react-router-dom";
 
 const state = {
   name: "Austin"
@@ -45,7 +45,7 @@ function App() {
           </ul>
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
+        {/* looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
           {/* <Route path="/Work">
