@@ -17,18 +17,12 @@ class PaintingSlide extends Component {
   };
 
 nextSlide = event => {
-  console.log("Next stlide")
-  console.log(this.state.slideIndex);
-  console.log(this.state.slideIndex)
     var slideCount = this.state.slideIndex + 1;
-    console.log(slideCount)
     if (slideCount >= this.state.images.length ) {this.setState({ slideIndex: 0})}
     else if (slideCount <= this.state.images.length -1 ) {this.setState({ slideIndex: slideCount})};
   };
 
   prevSlide = event => {
-    console.log("prev slide")
-    console.log(this.state.slideIndex);
     var slideCount = this.state.slideIndex - 1;
     if (slideCount < 0) {
       this.setState({ slideIndex: this.state.images.length -1})
@@ -44,12 +38,12 @@ nextSlide = event => {
         <div className="slideshow-container">
           <div className="inner paintings">
             {this.state.images.map(image => {
-                return <Slide image={image.image} key={image.id} caption={""} slideNumber={(parseInt(image.id) + 1)  + " / " + this.state.images.length } style={(this.state.slideIndex == image.id) ? this.state.show: this.state.hide } />
+                return <Slide image={image.image} key={image.id} caption={""} slideNumber={(parseInt(image.id) + 1)  + " / " + this.state.images.length } style={(this.state.slideIndex === image.id) ? this.state.show: this.state.hide } />
             })}
           </div>
 
-          <a className="prev" onClick={this.prevSlide}>&#10094;</a>
-          <a className="next" onClick={this.nextSlide}>&#10095;</a>
+          <button className="prev" onClick={this.prevSlide}>&#10094;</button>
+          <button className="next" onClick={this.nextSlide}>&#10095;</button>
         </div>
         <br />
         </>

@@ -3,7 +3,6 @@ import React from "react";
 function Cv(props) {
   return (
     <div className="text-container cv">
-      {/*<h1>CV</h1>*/}
       <div className="cv">
         <p className= "cvcv">
         b. 1986, Bismarck, ND.<br />
@@ -94,24 +93,24 @@ function Cv(props) {
 
         <strong>Publications:</strong><br /><br />
 
-        99 Cents or Less, Museum of Contemporary Art Detroit, Karma, New York, NY, 2018. &#187; <a href="https://karmakarma.org/publication/99-cents-or-less/" target="_blank" className="link">Visit Link</a><br /><br />
+        99 Cents or Less, Museum of Contemporary Art Detroit, Karma, New York, NY, 2018. &#187; <a href="https://karmakarma.org/publication/99-cents-or-less/" target="_blank" rel="noopener noreferrer" className="link">Visit Link</a><br /><br />
 
-        DET TO LAX, LAX TO DET, Los Angeles Museum of Art, Los Angeles, CA, 2015. &#187; <a href="https://lacarchive.com/item/dtwlax-laxdtw" target="_blank" className="link">Visit Link</a><br /><br />
+        DET TO LAX, LAX TO DET, Los Angeles Museum of Art, Los Angeles, CA, 2015. &#187; <a href="https://lacarchive.com/item/dtwlax-laxdtw" target="_blank" rel="noopener noreferrer" className="link">Visit Link</a><br /><br />
 
 
         <strong>Selected Writing:</strong><br /><br />
 
         Making a Making: Jonathan Rajewski in Conversation with Bill Dilworth<br />
-        Three Fold Press, November 2020,  &#187; <a href="https://threefoldpress.org/Making-a-Making" target="_blank" className="link">Visit Link</a><br /><br />
+        Three Fold Press, November 2020,  &#187; <a href="https://threefoldpress.org/Making-a-Making" target="_blank" rel="noopener noreferrer" className="link">Visit Link</a><br /><br />
 
         On James Dean Fuson<br />
-        "Essay'd," Wayne State University Press, April 2019,  &#187; <a href="http://essayd.org/?p=2756" target="_blank" className="link">Visit Link</a><br /><br />
+        "Essay'd," Wayne State University Press, April 2019,  &#187; <a href="http://essayd.org/?p=2756" target="_blank" rel="noopener noreferrer" className="link">Visit Link</a><br /><br />
 
         On Chris Riddell<br />
-        "Essay'd," Wayne State University Press, July 2018,  &#187; <a href="https://essayd.org/?p=2328" target="_blank" className="link">Visit Link</a><br /><br />
+        "Essay'd," Wayne State University Press, July 2018,  &#187; <a href="https://essayd.org/?p=2328" target="_blank" rel="noopener noreferrer" className="link">Visit Link</a><br /><br />
 
         On Yusef Qualls-El<br />
-        "Essay'd," Wayne State University Press, April 2018,  &#187; <a href="https://essayd.org/?p=2194" target="_blank" className="link">Visit Link</a><br /><br />
+        "Essay'd," Wayne State University Press, April 2018,  &#187; <a href="https://essayd.org/?p=2194" target="_blank" rel="noopener noreferrer" className="link">Visit Link</a><br /><br />
 
         Prison, Poetry, and the Internet, The Exhibitionist (MIT Press), 2014.<br /><br />
 

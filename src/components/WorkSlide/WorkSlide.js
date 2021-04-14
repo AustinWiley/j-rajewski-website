@@ -17,18 +17,12 @@ class WorkSlide extends Component {
   };
 
 nextSlide = event => {
-  console.log("Next stlide")
-  console.log(this.state.slideIndex);
-  console.log(this.state.slideIndex)
     var slideCount = this.state.slideIndex + 1;
-    console.log(slideCount)
     if (slideCount >= this.state.images.length ) {this.setState({ slideIndex: 0})}
     else if (slideCount <= this.state.images.length -1 ) {this.setState({ slideIndex: slideCount})};
   };
 
   prevSlide = event => {
-    console.log("prev slide")
-    console.log(this.state.slideIndex);
     var slideCount = this.state.slideIndex - 1;
     if (slideCount < 0) {
       this.setState({ slideIndex: this.state.images.length -1})

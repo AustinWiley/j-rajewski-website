@@ -1,42 +1,42 @@
 [
     {
-        "id":"0",
+        "id":0,
         "image":"images/Drawings/Rajewski001.jpg"
     },
     {
-        "id":"1",
+        "id":1,
         "image":"images/Drawings/Rajewski002.jpg"
     },
     {
-        "id":"2",
+        "id":2,
         "image":"images/Drawings/Rajewski003.jpg"
     },
     {
-        "id":"3",
+        "id":3,
         "image":"images/Drawings/Rajewski004.jpg"
     },
     {
-        "id":"4",
+        "id":4,
         "image":"images/Drawings/Rajewski005.jpg"
     },
     {
-        "id":"5",
+        "id":5,
         "image":"images/Drawings/Rajewski006.jpg"
     },
     {
-        "id":"6",
+        "id":6,
         "image":"images/Drawings/Rajewski007.jpg"
     },
     {
-        "id":"7",
+        "id":7,
         "image":"images/Drawings/Rajewski008.jpg"
     },
     {
-        "id":"8",
+        "id":8,
         "image":"images/Drawings/Rajewski009.jpg"
     },
     {
-        "id":"9",
+        "id":9,
         "image":"images/Drawings/Rajewski010.jpg"
     }
 ]
